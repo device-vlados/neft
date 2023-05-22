@@ -570,10 +570,10 @@ html, body {
 .news__list-link {
 }
 .news__image-box {
+    min-height: 190px;
 }
-.news__image-box img{
+.news__image-box img{ 
     max-width: 310px;
-    overflow: hidden;
     border-radius: 15px 15px 0 0;
 }
 .news__content {
@@ -1361,6 +1361,7 @@ html, body {
             font-weight: 400;
             font-size: 16px;
             line-height: 19px;
+            margin-top: 10px;
         }
         .delivery__list {
             display: flex;
